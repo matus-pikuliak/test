@@ -9,6 +9,6 @@ setup(
     name="test",
     version="0.1",
     packages=find_namespace_packages(where="test"),
-    package_dir={"": "test"},
+    # package_dir={"": "test"},
     install_requires=read_requirements("requirements.txt"),
 )
