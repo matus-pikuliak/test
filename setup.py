@@ -8,7 +8,7 @@ def read_requirements(filename):
 setup(
     name="test",
     version="0.1",
-    packages=find_namespace_packages(where="src"),
-    package_dir={"": "src"},
+    packages=find_namespace_packages(where="test"),
+    package_dir={"": "test"},
     install_requires=read_requirements("requirements.txt"),
 )
